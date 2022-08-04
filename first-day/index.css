@@ -1,0 +1,38 @@
+body{
+  background-image : url("https://cdn.pixabay.com/photo/2022/02/15/00/42/music-7014127__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  margin-top : 20%;
+  margin-left: 5%; 
+  margin-right: 5%;
+  display:flex;
+  justify-content: center; 
+}
+
+.sound{
+  font-size: 0.9em;
+  font-weight:bold;
+  display:block;
+}
+kbd{
+  font-size: 4em;
+}
+
+.key{
+  width: 100px;;
+  height:100px;
+  color:white;
+  text-align:center;
+  margin-left: 2%;
+  border: 1px solid green;
+  padding: 1em;
+  transition: all .07s ease;
+ 
+}
+.playing{
+  transform:scale(1.2);
+   border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
