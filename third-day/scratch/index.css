@@ -1,0 +1,54 @@
+
+:root{
+    --space: 400;
+    --blur: 1; 
+    --color: white; 
+    
+}
+
+html {
+   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: lightgreen; 
+}
+
+span{
+color: var(--color); 
+}
+
+body {
+    display:flex; 
+    flex: 1;
+    margin:0 ; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction :column;
+  
+}
+
+.button-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+h2{
+   color: black; 
+}
+
+
+h5 {
+    display:inline; 
+}
+
+img{
+    filter: blur(var(--blur));
+    width: var(--space);
+    width: var(--space);
+}
+
+span{
+    font-size: 1em ; 
+}
+
+
